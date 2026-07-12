@@ -11,6 +11,7 @@ https://radhikasingh6627-bit.github.io/TODO-LIST/
 ## 📸 Preview
 
 https://github.com/radhikasingh6627-bit/TODO-LIST/blob/main/Screenshot%202026-07-12%20112017.png
+https://github.com/radhikasingh6627-bit/TODO-LIST/blob/main/Screenshot%202026-07-12%20112039.png
 
 ## ✨ Features
 
