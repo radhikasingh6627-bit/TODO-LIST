@@ -10,8 +10,7 @@ https://radhikasingh6627-bit.github.io/TODO-LIST/
 
 ## 📸 Preview
 
-> Add a screenshot of the app here after uploading, e.g.:
-> `![To-Do List preview](preview.png)`
+https://github.com/radhikasingh6627-bit/TODO-LIST/blob/main/Screenshot%202026-07-12%20112017.png
 
 ## ✨ Features
 
