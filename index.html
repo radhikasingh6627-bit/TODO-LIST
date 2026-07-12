@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #todo{
+            height: 500px;
+            width: 400px;
+            background-color: aquamarine;
+        }
+        #inputfield{
+            width: 300px;
+            height: 50px;
+            border: 2px solid orangered;
+            box-shadow: 0 0 10px orangered;
+            border-radius: 20px;
+        }
+        #addto{
+            width: 70px;
+            height: 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px orangered;
+            border: 2px solid orangered;
+            background:linear-gradient(orangered,white);
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="todo">
+            <input type="text" id="inputfield">
+            <button id="addto">Add</button>
+        </div>
+    </center>
+</body>
+<script>
+    var addtobutton=document.getElementById("addto");
+    var todo=document.getElementById("todo");
+    var inputfield=document.getElementById("inputfield");
+    
+    addtobutton.addEventListener("click",function(){
+        var paragraph=document.createElement("p");
+        paragraph.innerText=inputfield.value;
+        todo.appendChild(paragraph);
+        paragraph.style.fontSize="20px";
+        inputfield.value="";
+
+        paragraph.addEventListener("click",function(){
+            paragraph.style.textDecoration="line-through";
+        })
+        paragraph.addEventListener("dblclick",function(){
+            // paragraph.style.display="none";
+            todo.removeChild(paragraph);
+        })
+    })
+
+</script>
+</html>
